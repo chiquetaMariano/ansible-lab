@@ -17,5 +17,5 @@ Vagrant.configure("2") do |config|
 
   config.vm.synced_folder ".", "/vagrant",
     owner: "vagrant", group: "vagrant",
-    mount_options: ["dmode=775,fmode=775"]
+    mount_options: ["dmode=775,fmode=775"] # directory and files modes
 end
